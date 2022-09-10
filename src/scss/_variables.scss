@@ -1,0 +1,36 @@
+$primary: #39373766;
+
+$container: 1250;
+$largeTablet: 992;
+$tablet: 767;
+$largePhone: 425;
+$mediumPhone: 375;
+$smallPhonePhone: 320;
+
+@mixin flex($y, $x) {
+   display: flex;
+   align-items: $y;
+   justify-content: $x;
+}
+
+@mixin onHover {
+   @media (min-width: ($tablet+px)) {
+      &:before {
+         content: '';
+         position: absolute;
+         width: 0%;
+         height: 100%;
+         background: #39373766;
+         top: 0;
+         left: 0;
+         pointer-events: none;
+         transition: all 400ms ease;
+      }
+
+      &:hover {
+         &::before {
+            width: 100%;
+         }
+      }
+   }
+}
