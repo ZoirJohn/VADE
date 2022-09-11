@@ -34,3 +34,8 @@ $smallPhonePhone: 320;
       }
    }
 }
+
+@mixin z-index {
+	position: relative;
+	z-index: 3;
+}

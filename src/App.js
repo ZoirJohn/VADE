@@ -1,10 +1,17 @@
+// === Components === //
 import { Component } from 'react';
 import Header from './components/Header';
-import './scss/style.scss'
+
+// === SCSS === //
+import './scss/style.scss';
 
 class App extends Component {
    render() {
-      return <Header />;
+      return (
+         <div className='wrapper'>
+            <Header />
+         </div>
+      );
    }
 }
 
