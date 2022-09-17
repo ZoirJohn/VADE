@@ -1,0 +1,116 @@
+@import './_variables.scss';
+.main {
+   flex: 1 0 auto;
+   padding: 8em 0 0 0;
+   @media (max-width: ($tablet+px)) {
+      padding: 3.3em 0 0;
+   }
+}
+
+.banner {
+   overflow: hidden;
+   &__container {
+      display: flex;
+      flex-direction: column;
+      gap: 8em 0;
+      position: relative;
+      padding-bottom: 3.7em;
+      @media (max-width: ($tablet+px)) {
+         gap: 5em 0;
+      }
+   }
+
+   &__header {
+      position: relative;
+      z-index: 2;
+      padding: 0 5.5em 0 0;
+      h1 {
+         font-weight: 400;
+         font-size: (111/15) + rem;
+         line-height: 7.5rem;
+         color: $primary-shade;
+         letter-spacing: 7px;
+      }
+      @media (max-width: ($largeTablet+px)) {
+         h1 {
+            font-size: 4rem;
+            line-height: 100%;
+         }
+      }
+      @media (max-width: ($tablet+px)) {
+         padding-right: 0;
+         h1 {
+            font-size: 3rem;
+				letter-spacing: 0;
+         }
+      }
+   }
+
+   &__description {
+      z-index: 2;
+      a {
+         font-size: 1rem;
+         padding: (20/15) + em (40/15) + em;
+         background: #ffd900;
+         display: inline-block;
+         letter-spacing: 0.45px;
+         line-height: 24/15 * 100%;
+         border-radius: 0.2em;
+         font-family: 'Roboto', sans-serif;
+      }
+      h6 {
+         width: 30%;
+         font-family: 'Roboto', sans-serif;
+         font-style: normal;
+         font-weight: 400;
+         font-size: 1rem;
+         line-height: 24px;
+         color: #70748c;
+         margin: 0 0 2.4em 0;
+      }
+      @media (max-width: ($largeTablet+px)) {
+         h6 {
+            width: 60%;
+         }
+      }
+      @media (max-width: ($tablet+px)) {
+         h6 {
+            width: 100%;
+         }
+      }
+      @media (max-width: ($largePhone+px)) {
+         a{
+				padding: 1em 1.5em;
+			}
+      }
+   }
+}
+
+.decor {
+   position: absolute;
+   z-index: 1;
+   @media (max-width: ($largeTablet+px)) {
+      opacity: 0.6;
+   }
+}
+#decor-1 {
+   transform: rotate(180deg);
+   left: 15%;
+   top: -50%;
+}
+#decor-2 {
+   right: 0;
+   bottom: -70%;
+   @media (max-width: ($tablet+px)) {
+      display: none;
+   }
+}
+#decor-3 {
+   right: 0;
+   left: 0;
+   margin: 0 auto;
+   bottom: -50%;
+   @media (max-width: ($tablet+px)) {
+      display: none;
+   }
+}

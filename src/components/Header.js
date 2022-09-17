@@ -13,6 +13,7 @@ const navbarFunction = () => {
 
    nav.classList.toggle('active_');
    burger.classList.toggle('active_');
+   nav.closest('.wrapper').classList.toggle('overflowHide_');
 };
 
 const Header = () => {

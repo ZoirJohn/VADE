@@ -1,4 +1,5 @@
 $primary: #39373766;
+$primary-shade: #393737;
 
 $container: 1250;
 $largeTablet: 992;
@@ -37,5 +38,5 @@ $smallPhonePhone: 320;
 
 @mixin z-index {
 	position: relative;
-	z-index: 3;
+	z-index: 4;
 }

@@ -22,6 +22,9 @@ body,
    min-height: 100vh;
    display: flex;
    flex-direction: column;
+   &.overflowHide_ {
+      overflow: hidden;
+   }
 }
 [class*='container'] {
    max-width: $container + px;

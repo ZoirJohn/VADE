@@ -1,8 +1,9 @@
 @import './_variables.scss';
+
 .header {
    position: fixed;
    width: 100%;
-   z-index: 2;
+   z-index: 3;
    background: #fff;
 
    &__container {
@@ -33,7 +34,7 @@
             height: 100vh;
             top: 0;
             left: 0;
-            background: $primary;
+            background: $primary-shade;
             overflow: auto;
             transform: translate(0, -100%);
             transition: all 400ms ease;
@@ -53,6 +54,9 @@
             }
          }
       }
+      @media (min-width: ($tablet+px)) {
+         z-index: 2;
+      }
    }
 
    &__menu {
@@ -69,7 +73,7 @@
       }
       a {
          letter-spacing: 1px;
-         color: #39373766;
+         color: $primary;
          font-size: 0.9375em;
          line-height: (24/15);
          position: relative;
@@ -150,19 +154,19 @@
       }
    }
 
-	@media (max-width: ($tablet+px)) {
-		&::before {
-			content: '';
-			width: 100%;
-			height: 100%;
-			display: block;
-			background: #fff;
-			position: absolute;
-			left: 0;
-			top: 0;
-			z-index: 2;
-		}
-	}
+   // @media (max-width: ($tablet+px)) {
+   &::before {
+      content: '';
+      width: 100%;
+      height: 100%;
+      display: block;
+      background: #fff;
+      position: absolute;
+      left: 0;
+      top: 0;
+      z-index: 2;
+   }
+   // }
 }
 
 .logo {

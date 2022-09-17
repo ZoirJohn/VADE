@@ -1,6 +1,7 @@
 // === Components === //
 import { Component } from 'react';
 import Header from './components/Header';
+import Main from './components/Main';
 
 // === SCSS === //
 import './scss/style.scss';
@@ -10,6 +11,7 @@ class App extends Component {
       return (
          <div className='wrapper'>
             <Header />
+            <Main />
          </div>
       );
    }
