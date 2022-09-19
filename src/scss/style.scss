@@ -18,13 +18,14 @@ body,
    height: 100%;
    font-family: 'Roboto', sans-serif;
 }
+body.active_{
+	overflow: hidden;
+}
 .wrapper {
    min-height: 100vh;
    display: flex;
    flex-direction: column;
-   &.overflowHide_ {
-      overflow: hidden;
-   }
+   overflow: hidden;
 }
 [class*='container'] {
    max-width: $container + px;

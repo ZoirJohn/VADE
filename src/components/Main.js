@@ -1,13 +1,9 @@
 // === Components === //
+import Button from './MainButton';
 import decor from '../img/main/car.png';
 
 // === SCSS === //
 import '../scss/main.scss';
-
-const OnClickAnchor = (e) => {
-   e.preventDefault();
-   alert('Всё ok :)');
-};
 
 const Main = () => {
    return (
@@ -19,13 +15,15 @@ const Main = () => {
                </div>
                <div className='banner__description'>
                   <h6>Real-time curb data for smart cities. Measure occupancy, analyze demand, and manage curb space with the right tools.</h6>
-                  <a href='#' onClick={OnClickAnchor}>
-                     Book a demo
-                  </a>
+                  <Button buttonText='Book a demo' />
                </div>
                <img src={decor} alt='Decor' className='decor' id='decor-1' />
                <img src={decor} alt='Decor' className='decor' id='decor-2' />
                <img src={decor} alt='Decor' className='decor' id='decor-3' />
+            </div>
+            <div className='banner__letterhead'>
+					<p>We use cookies to provide you with the best website experience</p>
+               <Button buttonText='Agree' />
             </div>
          </section>
       </main>

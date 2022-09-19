@@ -8,8 +8,10 @@
 }
 
 .banner {
-   overflow: hidden;
+   position: relative;
+   margin: 0 0 1000px 0;
    &__container {
+      overflow: hidden;
       display: flex;
       flex-direction: column;
       gap: 8em 0;
@@ -19,7 +21,6 @@
          gap: 5em 0;
       }
    }
-
    &__header {
       position: relative;
       z-index: 2;
@@ -41,22 +42,25 @@
          padding-right: 0;
          h1 {
             font-size: 3rem;
-				letter-spacing: 0;
+            letter-spacing: 0;
          }
       }
    }
-
    &__description {
       z-index: 2;
       a {
          font-size: 1rem;
          padding: (20/15) + em (40/15) + em;
-         background: #ffd900;
+         background: $yellow;
          display: inline-block;
          letter-spacing: 0.45px;
          line-height: 24/15 * 100%;
          border-radius: 0.2em;
          font-family: 'Roboto', sans-serif;
+         &.clicked {
+            outline: 2px solid $yellow;
+            background: #fff;
+         }
       }
       h6 {
          width: 30%;
@@ -79,9 +83,61 @@
          }
       }
       @media (max-width: ($largePhone+px)) {
-         a{
-				padding: 1em 1.5em;
-			}
+         a {
+            padding: 1em 1.5em;
+         }
+      }
+   }
+   &__letterhead {
+      max-width: 640px;
+      width: 100%;
+      box-shadow: 0px 14px 30px rgba(0, 0, 0, 0.15);
+      border-radius: 220px;
+      background: #fff;
+      padding: (20/15) + em (50/15) + em;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      z-index: 2;
+      transform: translate(0, 50%);
+      @include flex(center, space-between);
+      gap: 0 5em;
+      flex-wrap: nowrap;
+      p {
+         color: $blue;
+         line-height: (24/16 * 100%);
+      }
+      a {
+         display: block;
+         background: #fff;
+         color: $blue;
+         outline: 1px solid $blue;
+         padding: (10/15) + em (20/15) + em;
+         font-size: 1rem;
+         border-radius: 2rem;
+         &.clicked {
+            background: $blue;
+            outline: 1px solid #fff;
+            color: #fff;
+         }
+      }
+      @media (max-width: ($tablet+px)) {
+         gap: 0 1em;
+      }
+      @media (max-width: ($largePhone+px)) {
+         gap: 1em 0;
+         flex-direction: column;
+         padding: 0.5em 3em;
+         transform: translateY(75%);
+			border-radius: 50px;
+         p {
+            text-align: center;
+         }
+         a {
+            padding: 0.5em 1em;
+         }
       }
    }
 }
