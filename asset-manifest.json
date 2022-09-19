@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/VADE/static/css/main.dd968ef0.css",
-    "main.js": "/VADE/static/js/main.e68b80d6.js",
+    "main.css": "/VADE/static/css/main.649055e0.css",
+    "main.js": "/VADE/static/js/main.57f7aa24.js",
+    "static/media/car.png": "/VADE/static/media/car.61a9322711f02f505dd0.png",
     "static/media/logo.svg": "/VADE/static/media/logo.745840be7bb1b36747cd9e4d4934cc27.svg",
     "index.html": "/VADE/index.html",
-    "main.dd968ef0.css.map": "/VADE/static/css/main.dd968ef0.css.map",
-    "main.e68b80d6.js.map": "/VADE/static/js/main.e68b80d6.js.map"
+    "main.649055e0.css.map": "/VADE/static/css/main.649055e0.css.map",
+    "main.57f7aa24.js.map": "/VADE/static/js/main.57f7aa24.js.map"
   },
   "entrypoints": [
-    "static/css/main.dd968ef0.css",
-    "static/js/main.e68b80d6.js"
+    "static/css/main.649055e0.css",
+    "static/js/main.57f7aa24.js"
   ]
 }
