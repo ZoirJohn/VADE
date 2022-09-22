@@ -25,8 +25,8 @@ const GetSection = () => {
 				</div>
 				<div className='get__cards'>
 					<Card img={satellite} heading='Fully wireless hardware' text='We provide solar and cellular cameras that work anywhere, operate 24/7, and take under 10 minutes to install.'/>
-					<Card img={barrel} heading='Fully wireless hardware' text='We provide solar and cellular cameras that work anywhere, operate 24/7, and take under 10 minutes to install.'/>
-					<Card img={statistics} heading='Fully wireless hardware' text='We provide solar and cellular cameras that work anywhere, operate 24/7, and take under 10 minutes to install.'/>
+					<Card img={barrel} heading='Real-time data' text='Measure availability and compliance in real-time with our powerful and accurate computer vision pipeline.'/>
+					<Card img={statistics} heading='Full service subscription' text='One subscription for the cameras, installation, maintenance, implementation, software, and support.'/>
 				</div>
          </div>
       </section>

@@ -171,3 +171,29 @@
 }
 
 // Get
+.get {
+   width: 100%;
+   background: #f9fbfd;
+   &__container {
+		max-width: 1030px !important;
+		display: grid;
+		grid-template-columns: repeat(2,1fr);
+		gap: (70/16)+em 0;
+	}
+
+   &__body {
+		flex: 0 0 50%;
+   }
+
+   &__img {
+		img{
+			// width: 100%;
+		}
+   }
+
+   &__cards {
+		grid-column: 1/3;
+		display: grid;
+		grid-template-columns: repeat(3,1fr);
+   }
+}
