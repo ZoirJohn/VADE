@@ -42,3 +42,11 @@ $smallPhonePhone: 320;
    position: relative;
    z-index: 4;
 }
+
+.getCard {
+   // #F9FBFD
+	width: 33%;
+	@include flex(flex-start,space-between);
+	flex-direction: column;
+	// align-items: baseline;
+}

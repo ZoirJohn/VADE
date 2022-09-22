@@ -1,4 +1,5 @@
 // === Components === //
+import GetSection from './GetSection';
 import Button from './MainButton';
 import decor from '../img/main/car.png';
 
@@ -25,7 +26,8 @@ const Main = () => {
 					<p>We use cookies to provide you with the best website experience</p>
                <Button buttonText='Agree' />
             </div>
-         </section>
+			</section>
+			<GetSection/>
       </main>
    );
 };

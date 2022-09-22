@@ -7,9 +7,9 @@
    }
 }
 
+// Banner
 .banner {
    position: relative;
-   margin: 0 0 1000px 0;
    &__container {
       overflow: hidden;
       display: flex;
@@ -131,7 +131,7 @@
          flex-direction: column;
          padding: 0.5em 3em;
          transform: translateY(75%);
-			border-radius: 50px;
+         border-radius: 50px;
          p {
             text-align: center;
          }
@@ -141,7 +141,6 @@
       }
    }
 }
-
 .decor {
    position: absolute;
    z-index: 1;
@@ -156,7 +155,7 @@
 }
 #decor-2 {
    right: 0;
-   bottom: -70%;
+   bottom: -50%;
    @media (max-width: ($tablet+px)) {
       display: none;
    }
@@ -165,8 +164,10 @@
    right: 0;
    left: 0;
    margin: 0 auto;
-   bottom: -50%;
+   bottom: -30%;
    @media (max-width: ($tablet+px)) {
       display: none;
    }
 }
+
+// Get

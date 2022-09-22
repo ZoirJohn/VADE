@@ -34,3 +34,11 @@ body.active_{
    padding-left: 15px;
    padding-right: 15px;
 }
+::-webkit-scrollbar{
+	background: transparent;
+	width: 8px;
+}
+::-webkit-scrollbar-thumb{
+	background: $primary;
+	border-radius: 20px;
+}
