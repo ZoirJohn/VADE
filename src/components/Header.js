@@ -12,8 +12,8 @@ const navbarFunction = () => {
    const burger = document.querySelector('.burger');
 
    nav.classList.toggle('active_');
-	burger.classList.toggle('active_');
-	nav.closest('body').classList.toggle('active_');
+   burger.classList.toggle('active_');
+   nav.closest('body').classList.toggle('active_');
 };
 
 const Header = () => {

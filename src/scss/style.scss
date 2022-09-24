@@ -36,7 +36,8 @@ body.active_{
 }
 ::-webkit-scrollbar{
 	background: transparent;
-	width: 8px;
+	width: 6px;
+	background: transparent;
 }
 ::-webkit-scrollbar-thumb{
 	background: $primary;

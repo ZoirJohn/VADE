@@ -129,7 +129,7 @@
       @media (max-width: ($largePhone+px)) {
          gap: 1em 0;
          flex-direction: column;
-         padding: 0.5em 3em;
+         padding: 0.5em 2em;
          transform: translateY(75%);
          border-radius: 50px;
          p {
@@ -179,10 +179,21 @@
 		display: grid;
 		grid-template-columns: repeat(2,1fr);
 		gap: (70/16)+em 0;
+		align-items: center;
 	}
 
    &__body {
 		flex: 0 0 50%;
+		h1 {
+				font-size: 3rem;
+				font-weight: 400;
+				line-height: 1;
+			}
+		
+			p {
+				padding: (20/16)+em 0;
+				font-size: $primary-shade;
+			}
    }
 
    &__img {
