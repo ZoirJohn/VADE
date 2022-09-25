@@ -181,12 +181,16 @@
       grid-template-columns: repeat(2, 1fr);
       gap: (70/16) + em 0;
       align-items: center;
+		position: relative;
    }
 
    &__body {
       flex: 0 0 50%;
       h1 {
          padding: 0 3em 0 0;
+         @media (max-width: ($largeTablet+px)) {
+            padding-right: 0;
+         }
       }
       p {
          padding-right: 3em;
@@ -198,11 +202,25 @@
          border-radius: 4px;
          display: inline-block;
       }
+		@media (max-width: ($tablet+px)) {
+			z-index: 2;
+		}
    }
 
    &__img {
       img {
          width: 100%;
+      }
+      @media (max-width: ($largeTablet+px)) {
+         img {
+            width: 80%;
+         }
+      }
+      @media (max-width: ($tablet+px)) {
+         position: absolute;
+         z-index: 1;
+			top: 3em;
+			opacity: 0.2;
       }
    }
 
@@ -212,7 +230,7 @@
       grid-template-columns: repeat(3, 1fr);
       @media (max-width: 620px) {
          grid-template-columns: 1fr;
-			gap: 3em 0;
+         gap: 3em 0;
       }
    }
 }
