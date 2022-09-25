@@ -2,6 +2,8 @@ $primary: #39373766;
 $primary-shade: #393737;
 $yellow: #ffd900;
 $blue: #4e66ff;
+$dark-blue: #4f5579;
+$navy-blue: #5d6073;
 
 $container: 1250;
 $largeTablet: 992;
@@ -48,10 +50,33 @@ $smallPhonePhone: 320;
    @include flex(flex-start, space-between);
    flex-direction: column;
    gap: (22.5/16) + em 0;
-	padding: 0 (88/16)+em 0 0;
+   padding: 0 (88/16) + em 0 0;
+   height: 190px;
    p {
-      font-size: (15/16)+rem;
-      line-height: 24/15*100%;
+      font-size: (15/16) + rem;
+      line-height: 24/15 * 100%;
       color: #4f5579;
    }
+   @media (max-width: 1024px) {
+      padding-right: (55/16) + em;
+   }
+   @media (max-width: ($tablet+px)) {
+      padding-right: (22/16) + em;
+   }
+   @media (max-width: 620px) {
+      max-width: 260px;
+		margin: 0 auto;
+   }
+}
+.mainCaption {
+   font-size: 3rem;
+   font-weight: 400;
+   line-height: 1;
+}
+.mainText {
+   padding: (27/16) + em 0 (60/16) + em;
+   font-weight: 400;
+   font-size: 15px;
+   line-height: 24/15 * 100%;
+   color: $dark-blue;
 }
