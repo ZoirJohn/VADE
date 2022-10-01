@@ -1,15 +1,20 @@
 {
   "files": {
-    "main.css": "/VADE/static/css/main.649055e0.css",
-    "main.js": "/VADE/static/js/main.57f7aa24.js",
+    "main.css": "/VADE/static/css/main.f77e6b69.css",
+    "main.js": "/VADE/static/js/main.7f9de6d7.js",
+    "static/media/diagram.png": "/VADE/static/media/diagram.5351f3ed52705d27c9a2.png",
+    "static/media/camera.png": "/VADE/static/media/camera.9a6d5141b90409b3023c.png",
     "static/media/car.png": "/VADE/static/media/car.61a9322711f02f505dd0.png",
+    "static/media/satellite.svg": "/VADE/static/media/satellite.38e337307d36f65881ee6676cba61a22.svg",
+    "static/media/statistics.svg": "/VADE/static/media/statistics.38e337307d36f65881ee6676cba61a22.svg",
+    "static/media/barrel.svg": "/VADE/static/media/barrel.157e34d79c1b92f87c61980c1aa76ebf.svg",
     "static/media/logo.svg": "/VADE/static/media/logo.745840be7bb1b36747cd9e4d4934cc27.svg",
     "index.html": "/VADE/index.html",
-    "main.649055e0.css.map": "/VADE/static/css/main.649055e0.css.map",
-    "main.57f7aa24.js.map": "/VADE/static/js/main.57f7aa24.js.map"
+    "main.f77e6b69.css.map": "/VADE/static/css/main.f77e6b69.css.map",
+    "main.7f9de6d7.js.map": "/VADE/static/js/main.7f9de6d7.js.map"
   },
   "entrypoints": [
-    "static/css/main.649055e0.css",
-    "static/js/main.57f7aa24.js"
+    "static/css/main.f77e6b69.css",
+    "static/js/main.7f9de6d7.js"
   ]
 }
