@@ -6,8 +6,8 @@ const Button = (props) => {
    const rewrite = (e) => {
       e.preventDefault();
       setWord(word === 'Clicked!' ? (word = props.buttonText) : (word = 'Clicked!'));
-      const element = e.target;
-      console.log(element.classList.toggle('clicked')); //;
+		const element = e.target;
+		element.classList.toggle('clicked')
    };
 
    return (

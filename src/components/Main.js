@@ -1,6 +1,7 @@
 // === Components === //
 import GetSection from './GetSection';
 import Button from './MainButton';
+import Data from './DataSection';
 import decor from '../img/main/car.png';
 
 // === SCSS === //
@@ -27,7 +28,8 @@ const Main = () => {
                <Button buttonText='Agree' />
             </div>
 			</section>
-			<GetSection/>
+			<GetSection />
+			<Data/>
       </main>
    );
 };
