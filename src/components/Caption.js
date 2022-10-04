@@ -1,4 +1,4 @@
-import '../scss/_variables.scss'
+
 const Caption = (props) => {
 	return <h1 className="mainCaption">{props.text}</h1>
 }

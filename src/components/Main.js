@@ -1,7 +1,8 @@
 // === Components === //
-import GetSection from './GetSection';
 import Button from './MainButton';
+import GetSection from './GetSection';
 import Data from './DataSection';
+import Leaders from './LeadersSection';
 import decor from '../img/main/car.png';
 
 // === SCSS === //
@@ -29,7 +30,9 @@ const Main = () => {
             </div>
 			</section>
 			<GetSection />
-			<Data/>
+			<Data />
+			<Leaders />
+			
       </main>
    );
 };
