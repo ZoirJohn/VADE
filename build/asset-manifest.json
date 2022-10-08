@@ -1,20 +1,29 @@
 {
   "files": {
-    "main.css": "/VADE/static/css/main.f77e6b69.css",
-    "main.js": "/VADE/static/js/main.7f9de6d7.js",
+    "main.css": "/VADE/static/css/main.5f7d938b.css",
+    "main.js": "/VADE/static/js/main.496e8e4f.js",
     "static/media/diagram.png": "/VADE/static/media/diagram.5351f3ed52705d27c9a2.png",
     "static/media/camera.png": "/VADE/static/media/camera.9a6d5141b90409b3023c.png",
+    "static/media/logotype-6.svg": "/VADE/static/media/logotype-6.503bf8f8f250e03686c081b63732f110.svg",
+    "static/media/logotype-3.svg": "/VADE/static/media/logotype-3.bd429ace3a34b6af6819a270de738df7.svg",
+    "static/media/bigLogo.svg": "/VADE/static/media/bigLogo.c7ce4ff46d0824c6fbaaeb33beeb11d4.svg",
+    "static/media/logotype-8.svg": "/VADE/static/media/logotype-8.e1f3cf2fcf027036f7db6f82b2e84270.svg",
+    "static/media/logotype-1.svg": "/VADE/static/media/logotype-1.f2a6e40ddbe396c815c9d0347546145e.svg",
+    "static/media/logotype-4.svg": "/VADE/static/media/logotype-4.928da69687bcabc6f708cbe966e74e57.svg",
+    "static/media/logotype-5.svg": "/VADE/static/media/logotype-5.fa79fef856d62e6f53af42fb83f85d8e.svg",
     "static/media/car.png": "/VADE/static/media/car.61a9322711f02f505dd0.png",
+    "static/media/logotype-2.svg": "/VADE/static/media/logotype-2.6713c017e251c85b94341a6d3990d4a8.svg",
+    "static/media/logotype-7.svg": "/VADE/static/media/logotype-7.e9bb32d30abc9694e87d2b37550de344.svg",
     "static/media/satellite.svg": "/VADE/static/media/satellite.38e337307d36f65881ee6676cba61a22.svg",
     "static/media/statistics.svg": "/VADE/static/media/statistics.38e337307d36f65881ee6676cba61a22.svg",
     "static/media/barrel.svg": "/VADE/static/media/barrel.157e34d79c1b92f87c61980c1aa76ebf.svg",
     "static/media/logo.svg": "/VADE/static/media/logo.745840be7bb1b36747cd9e4d4934cc27.svg",
     "index.html": "/VADE/index.html",
-    "main.f77e6b69.css.map": "/VADE/static/css/main.f77e6b69.css.map",
-    "main.7f9de6d7.js.map": "/VADE/static/js/main.7f9de6d7.js.map"
+    "main.5f7d938b.css.map": "/VADE/static/css/main.5f7d938b.css.map",
+    "main.496e8e4f.js.map": "/VADE/static/js/main.496e8e4f.js.map"
   },
   "entrypoints": [
-    "static/css/main.f77e6b69.css",
-    "static/js/main.7f9de6d7.js"
+    "static/css/main.5f7d938b.css",
+    "static/js/main.496e8e4f.js"
   ]
 }
