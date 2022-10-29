@@ -1,7 +1,7 @@
 {
    "name": "VADE",
    "version": "0.1.0",
-   "homepage": "http://zoirjohn.github.io/VADE",
+   "homepage": "https://zoirjohn.github.io/VADE",
    "private": true,
    "dependencies": {
       "@testing-library/jest-dom": "^5.16.5",

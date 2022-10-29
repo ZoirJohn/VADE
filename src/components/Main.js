@@ -3,6 +3,8 @@ import Button from './MainButton';
 import GetSection from './GetSection';
 import Data from './DataSection';
 import Leaders from './LeadersSection';
+import Power from './PowerSection';
+
 import decor from '../img/main/car.png';
 
 // === SCSS === //
@@ -25,14 +27,14 @@ const Main = () => {
                <img src={decor} alt='Decor' className='decor' id='decor-3' />
             </div>
             <div className='banner__letterhead'>
-					<p>We use cookies to provide you with the best website experience</p>
+               <p>We use cookies to provide you with the best website experience</p>
                <Button buttonText='Agree' />
             </div>
-			</section>
-			<GetSection />
-			<Data />
-			<Leaders />
-			
+         </section>
+         <GetSection />
+         <Data />
+         <Leaders />
+         <Power />
       </main>
    );
 };
