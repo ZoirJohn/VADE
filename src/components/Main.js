@@ -4,6 +4,7 @@ import GetSection from './GetSection';
 import Data from './DataSection';
 import Leaders from './LeadersSection';
 import Power from './PowerSection';
+import Posts from './Posts';
 
 import decor from '../img/main/car.png';
 
@@ -35,6 +36,7 @@ const Main = () => {
          <Data />
          <Leaders />
          <Power />
+         <Posts />
       </main>
    );
 };

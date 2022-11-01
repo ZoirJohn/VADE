@@ -15,7 +15,7 @@ import bigLogo from '../img/main/bigLogo.svg'
 
 const Leaders = () => {
    return (
-      <div className='leaders'>
+      <section className='leaders'>
          <div className='leaders__container'>
             <div className='leaders__body'>
                <Caption text='Trusted by leaders in urban transportation' />
@@ -42,7 +42,7 @@ const Leaders = () => {
 					</div>
 				</div>
          </div>
-      </div>
+      </section>
    );
 };
 

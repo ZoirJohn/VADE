@@ -6,7 +6,7 @@ import buildings from '../img/main/buildings.png';
 
 const Power = () => {
    return (
-      <div className='power'>
+      <section className='power'>
          <div className='power__container'>
             <Caption text='Power up the future of cities' />
             <div className='power__body'>
@@ -18,7 +18,7 @@ const Power = () => {
             </div>
          </div>
          <img src={buildings} alt='buildings' />
-      </div>
+      </section>
    );
 };
 
