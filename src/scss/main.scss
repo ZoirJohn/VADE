@@ -275,7 +275,7 @@
    width: 100%;
    &__container {
       max-width: 1030px !important;
-      padding: (30/15) + em 0;
+      padding: (70/15) + em 0;
    }
 
    &__body {
@@ -393,7 +393,7 @@
    &__container {
       @include flex(start, space-between);
       flex-direction: column;
-		gap: 6em 0;
+      gap: 6em 0;
    }
    &__body {
       @include flex(flex-end, space-between);
@@ -403,35 +403,74 @@
          line-height: 24px;
          color: $blue;
       }
-		.power__title{
-			width: 27.8%;
-		}
+      .power__title {
+         width: 27.8%;
+      }
    }
    &__rest {
-		padding: 0 3em 0 0;
-		flex: 0 0 20%;
-		display: flex;
-		align-items: start;
-		flex-direction: column;
-		gap: 2.1em 0;
-		a{
-			display: inline-block;
-			white-space: nowrap;
-			padding: 1.5em 2.6em;
-			background: $blue;
-			color: #fff;
-			border-radius: 4px;
-		}
+      padding: 0 3em 0 0;
+      flex: 0 0 20%;
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+      gap: 2.1em 0;
+      a {
+         display: inline-block;
+         white-space: nowrap;
+         padding: 1.5em 2.6em;
+         background: $blue;
+         color: #fff;
+         border-radius: 4px;
+      }
    }
    img {
       position: absolute;
-		top: 0;
+      top: 0;
       width: 100%;
    }
 
-	@media (max-width: 1150px) {
-		.power__title{
-			width: 30%;
-		}
-	}
+   @media (max-width: 1150px) {
+      h1 {
+         width: 50%;
+      }
+   }
+   @media (max-width: ($largeTablet+px)) {
+      h1 {
+         width: 58%;
+         font-size: 6rem;
+      }
+      .power__title {
+         width: 40%;
+      }
+   }
+   @media (max-width: ($tablet+px)) {
+      h1 {
+         font-size: 5rem;
+         width: 66%;
+      }
+   }
+   @media (max-width: 570px) {
+      h1 {
+         font-size: 4rem;
+      }
+      &__body {
+         align-items: start;
+         flex-direction: column;
+         gap: 2em 0;
+      }
+      .power__title {
+         width: 100%;
+      }
+      .power__rest {
+         gap: 0.5em 0;
+      }
+      .power__container {
+         gap: 3em 0;
+      }
+   }
+   @media (max-width: ($largePhone+px)) {
+      h1 {
+         width: 100%;
+      }
+   }
 }

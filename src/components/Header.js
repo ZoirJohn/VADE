@@ -16,6 +16,10 @@ const navbarFunction = () => {
    nav.closest('body').classList.toggle('active_');
 };
 
+const magicHeader = () => {
+   console.log(300);
+};
+
 const Header = () => {
    return (
       <header className='header'>
@@ -43,4 +47,4 @@ const Header = () => {
    );
 };
 
-export default Header;
+export { Header, magicHeader };
